@@ -17,8 +17,8 @@ To use this library,create an instance of RSSFeedReader passing a link to your R
 invoke the instance method RSSFeedReader.getRSSFeedItems() to get an ArrayList of RSSFeedItem.
 
 `
-RSSFeedReader reader = new RSSFeedReader("http://tomyrssfeed.xml");
- ArrayList<RSSFeedItem> items = reader.getRSSFeedItems();
+RSSFeedReader reader = new RSSFeedReader("http://tomyrssfeed.xml");<br/>
+ArrayList<RSSFeedItem> items = reader.getRSSFeedItems();
 `
 
 Use respective getters from RSSFeedItem to retrieve individual values of instance fields.
