@@ -16,21 +16,21 @@ Usage
 To use this library,create an instance of RSSFeedReader passing a link to your RSS feed in the constructor.
 invoke the instance method RSSFeedReader.getRSSFeedItems() to get an ArrayList of RSSFeedItem.
 
-`
-RSSFeedReader reader = new RSSFeedReader("http://tomyrssfeed.xml");<br/>
-ArrayList<RSSFeedItem> items = reader.getRSSFeedItems();
-`
+  `
+  RSSFeedReader reader = new RSSFeedReader("http://tomyrssfeed.xml");
+  ArrayList<RSSFeedItem> items = reader.getRSSFeedItems();
+  `
 
 Use respective getters from RSSFeedItem to retrieve individual values of instance fields.
 Use RSSFeedItem.tostring() instance method to get one String of all values.
 
 Use the RSS items in a for loop like this 
 
-`
-for(RSSFeedItem item : items){
-System.out.println(item.toString());
-}
-`
+  `
+  for(RSSFeedItem item : items){
+  System.out.println(item.toString());
+  }
+  `
 
 
 
