@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:weightSum="4">
+
+    <TextView
+        style="@style/list_item_text_view"
+
+        android:id="@+id/title"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+
+        android:id="@+id/author"
+        style="@style/list_item_text_view"
+
+        />
+
+    <TextView
+        style="@style/list_item_text_view"
+
+        android:id="@+id/pubDate"
+
+        />
+
+    <TextView
+
+        android:id="@+id/post_url"
+        style="@style/list_item_text_view"
+
+        />
+
+</LinearLayout>
