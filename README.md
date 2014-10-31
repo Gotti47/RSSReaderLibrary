@@ -11,6 +11,8 @@ If you are cool with the current tags you can just get the ready packaged jars a
 
 This library comes in two flavours; the Android specific that uses HttpURLConnection to make Http connections,the Java variant gets an InputStream directly from a URL object.
 
+Usage
+================
 To use this library,create an instance of RSSFeedReader passing a link to your RSS feed in the constructor.
 invoke the instance method RSSFeedReader.getRSSFeedItems() to get an ArrayList of RSSFeedItem.
 
